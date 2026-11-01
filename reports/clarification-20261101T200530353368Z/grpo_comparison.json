@@ -1,0 +1,748 @@
+{
+  "validation": {
+    "valid_schema": {
+      "before": {
+        "correct": 100,
+        "total": 120,
+        "percent": 83.33333333333333
+      },
+      "after": {
+        "correct": 120,
+        "total": 120,
+        "percent": 100.0
+      },
+      "delta_percentage_points": 16.66666666666667
+    },
+    "action_correct": {
+      "before": {
+        "correct": 80,
+        "total": 120,
+        "percent": 66.66666666666667
+      },
+      "after": {
+        "correct": 90,
+        "total": 120,
+        "percent": 75.0
+      },
+      "delta_percentage_points": 8.333333333333329
+    },
+    "tool_choice_correct": {
+      "before": {
+        "correct": 80,
+        "total": 120,
+        "percent": 66.66666666666667
+      },
+      "after": {
+        "correct": 90,
+        "total": 120,
+        "percent": 75.0
+      },
+      "delta_percentage_points": 8.333333333333329
+    },
+    "arguments_correct": {
+      "before": {
+        "correct": 80,
+        "total": 120,
+        "percent": 66.66666666666667
+      },
+      "after": {
+        "correct": 90,
+        "total": 120,
+        "percent": 75.0
+      },
+      "delta_percentage_points": 8.333333333333329
+    },
+    "exact_match": {
+      "before": {
+        "correct": 80,
+        "total": 120,
+        "percent": 66.66666666666667
+      },
+      "after": {
+        "correct": 90,
+        "total": 120,
+        "percent": 75.0
+      },
+      "delta_percentage_points": 8.333333333333329
+    },
+    "per_category": {
+      "clarify:find_flights": {
+        "before": {
+          "correct": 5,
+          "total": 10,
+          "percent": 50.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 50.0
+      },
+      "clarify:get_weather": {
+        "before": {
+          "correct": 5,
+          "total": 10,
+          "percent": 50.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 50.0
+      },
+      "clarify:search_products": {
+        "before": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "clarify:track_order": {
+        "before": {
+          "correct": 0,
+          "total": 10,
+          "percent": 0.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 10,
+          "percent": 0.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "clarify:translate_text": {
+        "before": {
+          "correct": 0,
+          "total": 10,
+          "percent": 0.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 100.0
+      },
+      "no_tool": {
+        "before": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "tool:find_flights": {
+        "before": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 10,
+          "percent": 0.0
+        },
+        "delta_percentage_points": -100.0
+      },
+      "tool:get_weather": {
+        "before": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "tool:search_products": {
+        "before": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "tool:track_order": {
+        "before": {
+          "correct": 0,
+          "total": 10,
+          "percent": 0.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 10,
+          "percent": 0.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "tool:translate_text": {
+        "before": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 10,
+          "total": 10,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      }
+    },
+    "clarification": {
+      "recall": {
+        "before": {
+          "count": 20,
+          "total": 50,
+          "percent": 40.0
+        },
+        "after": {
+          "count": 40,
+          "total": 50,
+          "percent": 80.0
+        },
+        "delta_percentage_points": 40.0
+      },
+      "precision": {
+        "before": {
+          "count": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "after": {
+          "count": 40,
+          "total": 60,
+          "percent": 66.66666666666667
+        },
+        "delta_percentage_points": -33.33333333333333
+      },
+      "unnecessary_clarification_rate": {
+        "before": {
+          "count": 0,
+          "total": 70,
+          "percent": 0.0
+        },
+        "after": {
+          "count": 20,
+          "total": 70,
+          "percent": 28.571428571428573
+        },
+        "delta_percentage_points": 28.571428571428573
+      },
+      "correct_nonclarification_rate": {
+        "before": {
+          "count": 60,
+          "total": 70,
+          "percent": 85.71428571428571
+        },
+        "after": {
+          "count": 50,
+          "total": 70,
+          "percent": 71.42857142857143
+        },
+        "delta_percentage_points": -14.285714285714278
+      }
+    }
+  },
+  "test": {
+    "valid_schema": {
+      "before": {
+        "correct": 218,
+        "total": 240,
+        "percent": 90.83333333333333
+      },
+      "after": {
+        "correct": 198,
+        "total": 240,
+        "percent": 82.5
+      },
+      "delta_percentage_points": -8.333333333333329
+    },
+    "action_correct": {
+      "before": {
+        "correct": 134,
+        "total": 240,
+        "percent": 55.833333333333336
+      },
+      "after": {
+        "correct": 146,
+        "total": 240,
+        "percent": 60.833333333333336
+      },
+      "delta_percentage_points": 5.0
+    },
+    "tool_choice_correct": {
+      "before": {
+        "correct": 134,
+        "total": 240,
+        "percent": 55.833333333333336
+      },
+      "after": {
+        "correct": 145,
+        "total": 240,
+        "percent": 60.416666666666664
+      },
+      "delta_percentage_points": 4.583333333333329
+    },
+    "arguments_correct": {
+      "before": {
+        "correct": 134,
+        "total": 240,
+        "percent": 55.833333333333336
+      },
+      "after": {
+        "correct": 145,
+        "total": 240,
+        "percent": 60.416666666666664
+      },
+      "delta_percentage_points": 4.583333333333329
+    },
+    "exact_match": {
+      "before": {
+        "correct": 134,
+        "total": 240,
+        "percent": 55.833333333333336
+      },
+      "after": {
+        "correct": 145,
+        "total": 240,
+        "percent": 60.416666666666664
+      },
+      "delta_percentage_points": 4.583333333333329
+    },
+    "per_category": {
+      "clarify:find_flights": {
+        "before": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "clarify:get_weather": {
+        "before": {
+          "correct": 10,
+          "total": 20,
+          "percent": 50.0
+        },
+        "after": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 50.0
+      },
+      "clarify:search_products": {
+        "before": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "clarify:track_order": {
+        "before": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "clarify:translate_text": {
+        "before": {
+          "correct": 10,
+          "total": 20,
+          "percent": 50.0
+        },
+        "after": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 50.0
+      },
+      "no_tool": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      },
+      "tool:find_flights": {
+        "before": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "delta_percentage_points": -100.0
+      },
+      "tool:get_weather": {
+        "before": {
+          "correct": 16,
+          "total": 20,
+          "percent": 80.0
+        },
+        "after": {
+          "correct": 20,
+          "total": 20,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 20.0
+      },
+      "tool:search_products": {
+        "before": {
+          "correct": 6,
+          "total": 20,
+          "percent": 30.0
+        },
+        "after": {
+          "correct": 16,
+          "total": 20,
+          "percent": 80.0
+        },
+        "delta_percentage_points": 50.0
+      },
+      "tool:track_order": {
+        "before": {
+          "correct": 12,
+          "total": 20,
+          "percent": 60.0
+        },
+        "after": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "delta_percentage_points": -60.0
+      },
+      "tool:translate_text": {
+        "before": {
+          "correct": 0,
+          "total": 20,
+          "percent": 0.0
+        },
+        "after": {
+          "correct": 9,
+          "total": 20,
+          "percent": 45.0
+        },
+        "delta_percentage_points": 45.0
+      }
+    },
+    "clarification": {
+      "recall": {
+        "before": {
+          "count": 40,
+          "total": 100,
+          "percent": 40.0
+        },
+        "after": {
+          "count": 61,
+          "total": 100,
+          "percent": 61.0
+        },
+        "delta_percentage_points": 21.0
+      },
+      "precision": {
+        "before": {
+          "count": 40,
+          "total": 44,
+          "percent": 90.9090909090909
+        },
+        "after": {
+          "count": 61,
+          "total": 113,
+          "percent": 53.982300884955755
+        },
+        "delta_percentage_points": -36.92679002413515
+      },
+      "unnecessary_clarification_rate": {
+        "before": {
+          "count": 4,
+          "total": 140,
+          "percent": 2.857142857142857
+        },
+        "after": {
+          "count": 52,
+          "total": 140,
+          "percent": 37.142857142857146
+        },
+        "delta_percentage_points": 34.28571428571429
+      },
+      "correct_nonclarification_rate": {
+        "before": {
+          "count": 114,
+          "total": 140,
+          "percent": 81.42857142857143
+        },
+        "after": {
+          "count": 85,
+          "total": 140,
+          "percent": 60.714285714285715
+        },
+        "delta_percentage_points": -20.714285714285715
+      }
+    }
+  },
+  "tool_selection_retention": {
+    "valid_schema": {
+      "before": {
+        "correct": 270,
+        "total": 280,
+        "percent": 96.42857142857143
+      },
+      "after": {
+        "correct": 264,
+        "total": 280,
+        "percent": 94.28571428571429
+      },
+      "delta_percentage_points": -2.142857142857139
+    },
+    "action_correct": {
+      "before": {
+        "correct": 245,
+        "total": 280,
+        "percent": 87.5
+      },
+      "after": {
+        "correct": 209,
+        "total": 280,
+        "percent": 74.64285714285714
+      },
+      "delta_percentage_points": -12.857142857142861
+    },
+    "tool_choice_correct": {
+      "before": {
+        "correct": 245,
+        "total": 280,
+        "percent": 87.5
+      },
+      "after": {
+        "correct": 209,
+        "total": 280,
+        "percent": 74.64285714285714
+      },
+      "delta_percentage_points": -12.857142857142861
+    },
+    "arguments_correct": {
+      "before": {
+        "correct": 245,
+        "total": 280,
+        "percent": 87.5
+      },
+      "after": {
+        "correct": 209,
+        "total": 280,
+        "percent": 74.64285714285714
+      },
+      "delta_percentage_points": -12.857142857142861
+    },
+    "exact_match": {
+      "before": {
+        "correct": 245,
+        "total": 280,
+        "percent": 87.5
+      },
+      "after": {
+        "correct": 209,
+        "total": 280,
+        "percent": 74.64285714285714
+      },
+      "delta_percentage_points": -12.857142857142861
+    },
+    "per_category": {
+      "clarify": {
+        "before": {
+          "correct": 5,
+          "total": 40,
+          "percent": 12.5
+        },
+        "after": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 87.5
+      },
+      "find_flights": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 15,
+          "total": 40,
+          "percent": 37.5
+        },
+        "delta_percentage_points": -62.5
+      },
+      "get_weather": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 38,
+          "total": 40,
+          "percent": 95.0
+        },
+        "delta_percentage_points": -5.0
+      },
+      "no_tool": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 39,
+          "total": 40,
+          "percent": 97.5
+        },
+        "delta_percentage_points": -2.5
+      },
+      "search_products": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 16,
+          "total": 40,
+          "percent": 40.0
+        },
+        "delta_percentage_points": -60.0
+      },
+      "track_order": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 21,
+          "total": 40,
+          "percent": 52.5
+        },
+        "delta_percentage_points": -47.5
+      },
+      "translate_text": {
+        "before": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "after": {
+          "correct": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 0.0
+      }
+    },
+    "clarification": {
+      "recall": {
+        "before": {
+          "count": 5,
+          "total": 40,
+          "percent": 12.5
+        },
+        "after": {
+          "count": 40,
+          "total": 40,
+          "percent": 100.0
+        },
+        "delta_percentage_points": 87.5
+      },
+      "precision": {
+        "before": {
+          "count": 5,
+          "total": 5,
+          "percent": 100.0
+        },
+        "after": {
+          "count": 40,
+          "total": 95,
+          "percent": 42.10526315789474
+        },
+        "delta_percentage_points": -57.89473684210526
+      },
+      "unnecessary_clarification_rate": {
+        "before": {
+          "count": 0,
+          "total": 240,
+          "percent": 0.0
+        },
+        "after": {
+          "count": 55,
+          "total": 240,
+          "percent": 22.916666666666668
+        },
+        "delta_percentage_points": 22.916666666666668
+      },
+      "correct_nonclarification_rate": {
+        "before": {
+          "count": 240,
+          "total": 240,
+          "percent": 100.0
+        },
+        "after": {
+          "count": 169,
+          "total": 240,
+          "percent": 70.41666666666667
+        },
+        "delta_percentage_points": -29.58333333333333
+      }
+    }
+  }
+}

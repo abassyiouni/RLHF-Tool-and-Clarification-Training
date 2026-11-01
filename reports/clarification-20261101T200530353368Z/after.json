@@ -1,0 +1,330 @@
+{
+  "validation": {
+    "count": 120,
+    "valid_schema": {
+      "correct": 120,
+      "total": 120,
+      "percent": 100.0
+    },
+    "action_correct": {
+      "correct": 90,
+      "total": 120,
+      "percent": 75.0
+    },
+    "tool_choice_correct": {
+      "correct": 90,
+      "total": 120,
+      "percent": 75.0
+    },
+    "arguments_correct": {
+      "correct": 90,
+      "total": 120,
+      "percent": 75.0
+    },
+    "exact_match": {
+      "correct": 90,
+      "total": 120,
+      "percent": 75.0
+    },
+    "mean_reward": 0.75,
+    "per_category": {
+      "clarify:find_flights": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      },
+      "clarify:get_weather": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      },
+      "clarify:search_products": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      },
+      "clarify:track_order": {
+        "correct": 0,
+        "total": 10,
+        "percent": 0.0
+      },
+      "clarify:translate_text": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      },
+      "no_tool": {
+        "correct": 20,
+        "total": 20,
+        "percent": 100.0
+      },
+      "tool:find_flights": {
+        "correct": 0,
+        "total": 10,
+        "percent": 0.0
+      },
+      "tool:get_weather": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      },
+      "tool:search_products": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      },
+      "tool:track_order": {
+        "correct": 0,
+        "total": 10,
+        "percent": 0.0
+      },
+      "tool:translate_text": {
+        "correct": 10,
+        "total": 10,
+        "percent": 100.0
+      }
+    },
+    "clarification": {
+      "recall": {
+        "count": 40,
+        "total": 50,
+        "percent": 80.0
+      },
+      "precision": {
+        "count": 40,
+        "total": 60,
+        "percent": 66.66666666666667
+      },
+      "unnecessary_clarification_rate": {
+        "count": 20,
+        "total": 70,
+        "percent": 28.571428571428573
+      },
+      "correct_nonclarification_rate": {
+        "count": 50,
+        "total": 70,
+        "percent": 71.42857142857143
+      },
+      "invalid_outputs": 0,
+      "counts": {
+        "true_positive": 40,
+        "false_positive": 20,
+        "false_negative": 10,
+        "true_negative": 50
+      }
+    },
+    "seconds": 4.5752358990721405
+  },
+  "test": {
+    "count": 240,
+    "valid_schema": {
+      "correct": 198,
+      "total": 240,
+      "percent": 82.5
+    },
+    "action_correct": {
+      "correct": 146,
+      "total": 240,
+      "percent": 60.833333333333336
+    },
+    "tool_choice_correct": {
+      "correct": 145,
+      "total": 240,
+      "percent": 60.416666666666664
+    },
+    "arguments_correct": {
+      "correct": 145,
+      "total": 240,
+      "percent": 60.416666666666664
+    },
+    "exact_match": {
+      "correct": 145,
+      "total": 240,
+      "percent": 60.416666666666664
+    },
+    "mean_reward": 0.6041666666666666,
+    "per_category": {
+      "clarify:find_flights": {
+        "correct": 20,
+        "total": 20,
+        "percent": 100.0
+      },
+      "clarify:get_weather": {
+        "correct": 20,
+        "total": 20,
+        "percent": 100.0
+      },
+      "clarify:search_products": {
+        "correct": 0,
+        "total": 20,
+        "percent": 0.0
+      },
+      "clarify:track_order": {
+        "correct": 0,
+        "total": 20,
+        "percent": 0.0
+      },
+      "clarify:translate_text": {
+        "correct": 20,
+        "total": 20,
+        "percent": 100.0
+      },
+      "no_tool": {
+        "correct": 40,
+        "total": 40,
+        "percent": 100.0
+      },
+      "tool:find_flights": {
+        "correct": 0,
+        "total": 20,
+        "percent": 0.0
+      },
+      "tool:get_weather": {
+        "correct": 20,
+        "total": 20,
+        "percent": 100.0
+      },
+      "tool:search_products": {
+        "correct": 16,
+        "total": 20,
+        "percent": 80.0
+      },
+      "tool:track_order": {
+        "correct": 0,
+        "total": 20,
+        "percent": 0.0
+      },
+      "tool:translate_text": {
+        "correct": 9,
+        "total": 20,
+        "percent": 45.0
+      }
+    },
+    "clarification": {
+      "recall": {
+        "count": 61,
+        "total": 100,
+        "percent": 61.0
+      },
+      "precision": {
+        "count": 61,
+        "total": 113,
+        "percent": 53.982300884955755
+      },
+      "unnecessary_clarification_rate": {
+        "count": 52,
+        "total": 140,
+        "percent": 37.142857142857146
+      },
+      "correct_nonclarification_rate": {
+        "count": 85,
+        "total": 140,
+        "percent": 60.714285714285715
+      },
+      "invalid_outputs": 42,
+      "counts": {
+        "true_positive": 61,
+        "false_positive": 52,
+        "false_negative": 39,
+        "true_negative": 85
+      }
+    },
+    "seconds": 8.34618761902675
+  },
+  "tool_selection_retention": {
+    "count": 280,
+    "valid_schema": {
+      "correct": 264,
+      "total": 280,
+      "percent": 94.28571428571429
+    },
+    "action_correct": {
+      "correct": 209,
+      "total": 280,
+      "percent": 74.64285714285714
+    },
+    "tool_choice_correct": {
+      "correct": 209,
+      "total": 280,
+      "percent": 74.64285714285714
+    },
+    "arguments_correct": {
+      "correct": 209,
+      "total": 280,
+      "percent": 74.64285714285714
+    },
+    "exact_match": {
+      "correct": 209,
+      "total": 280,
+      "percent": 74.64285714285714
+    },
+    "mean_reward": 0.7464285714285714,
+    "per_category": {
+      "clarify": {
+        "correct": 40,
+        "total": 40,
+        "percent": 100.0
+      },
+      "find_flights": {
+        "correct": 15,
+        "total": 40,
+        "percent": 37.5
+      },
+      "get_weather": {
+        "correct": 38,
+        "total": 40,
+        "percent": 95.0
+      },
+      "no_tool": {
+        "correct": 39,
+        "total": 40,
+        "percent": 97.5
+      },
+      "search_products": {
+        "correct": 16,
+        "total": 40,
+        "percent": 40.0
+      },
+      "track_order": {
+        "correct": 21,
+        "total": 40,
+        "percent": 52.5
+      },
+      "translate_text": {
+        "correct": 40,
+        "total": 40,
+        "percent": 100.0
+      }
+    },
+    "clarification": {
+      "recall": {
+        "count": 40,
+        "total": 40,
+        "percent": 100.0
+      },
+      "precision": {
+        "count": 40,
+        "total": 95,
+        "percent": 42.10526315789474
+      },
+      "unnecessary_clarification_rate": {
+        "count": 55,
+        "total": 240,
+        "percent": 22.916666666666668
+      },
+      "correct_nonclarification_rate": {
+        "count": 169,
+        "total": 240,
+        "percent": 70.41666666666667
+      },
+      "invalid_outputs": 16,
+      "counts": {
+        "true_positive": 40,
+        "false_positive": 55,
+        "false_negative": 0,
+        "true_negative": 169
+      }
+    },
+    "seconds": 10.935242895036936
+  }
+}

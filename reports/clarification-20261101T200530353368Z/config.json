@@ -1,0 +1,16 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "output_dir": "runs/clarification",
+  "max_steps": 60,
+  "learning_rate": 1e-05,
+  "train_size": 960,
+  "val_size": 120,
+  "test_size": 240,
+  "batch_size": 32,
+  "eval_batch_size": 16,
+  "num_generations": 4,
+  "max_completion_length": 128,
+  "seed": 42,
+  "wandb": false,
+  "warmup_steps": 40
+}
